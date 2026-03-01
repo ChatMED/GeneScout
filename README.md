@@ -14,14 +14,14 @@ Clone this repository (your GeneScout code):
 
 ```bash
 git clone https://github.com/ChatMED/GeneScout.git
-
+```
 ### 2) 🔬 PhenoBERT repo
 
 PhenoBERT is required for phenotype extraction and downstream phenotype-driven gene ranking:
 
 ```bash
 git clone https://github.com/EclipseCN/PhenoBERT.git
-
+```
 ### 📥 Install requirements
 
 Install dependencies from both repositories:
@@ -32,14 +32,14 @@ cd GeneScout
 pip install -r requirements.txt
 cd ../PhenoBERT
 pip install -r requirements.txt
-
+```
 ## ⚠️ IMPORTANT — Required Folder Placement
 
 Due to a **PhenoBERT internal path constraint**, all GeneScout runtime files must be placed inside:
 
 ```text
 PhenoBERT/phenobert/utils/
-
+```
 ## 🗂️ Expected Structure
 
 After copying, the structure should look like:
@@ -60,19 +60,19 @@ PhenoBERT/
       reasoning_controler_mcp_server.py
       run_genescout.py
       shared_config.py
-
+```
 ## ▶️ Running GeneScout
 
 Navigate to the required execution directory:
 
 ```bash
 cd PhenoBERT/phenobert/utils
-
+```
 First add the OPENAI_API_KEY where needed. In run_genescout.py you can change the case description and run the pipeline:
 
 ```bash
 python run_genescout.py
-
+```
 ## 🧠 System Components
 
 GeneScout includes the following MCP agents:
