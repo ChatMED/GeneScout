@@ -1,0 +1,765 @@
+============================================================
+GENE PRIORITIZATION — CLINICIAN REPORT
+============================================================
+Generated: 2026-02-28T22:23:43Z
+
+INPUT NOTE:
+------------------------------------------------------------
+A 13-year-old adolescent boy presented with the chief complaint of recurrent headache for 1 month. One month prior to the consult, the patient developed headache without an obvious trigger, mainly concentrated in the left temporo-occipital region, mild to moderate (2–4 points, total score of 10 points) (11), usually characterized by dull pain, accompanied by vascular pulsation, and occasionally tingling, lasting from several seconds to several minutes, and had four to five attacks in the preceding month. There were no prodromal or accompanying symptoms of aura, photophobia, phonophobia, nausea, or change in level of consciousness. No dizziness or any other neurological symptoms were noted. The patient had no history of hypertension, migraines, sinusitis, or the use of drugs that could cause headaches as an adverse effect. The patient was transferred to our hospital due to headache of unknown cause.
+
+Systemic examination revealed a light brown plaque with clear boundaries of different sizes scattered on the chest and abdomen, back, shoulder, and left upper arm, not protruding from the skin surface, and with a diameter of 0.3–8.0 cm (Figure 1). The patient's mother had similar skin manifestations, but did not have headaches. The laboratory examination results were unremarkable. We performed a lumbar puncture and cerebrospinal fluid examination, which showed no significant abnormalities. Both autoimmune encephalopathy antibodies and central nervous system (CNS) demyelinating antibodies were negative. MRI of the head revealed multiple abnormal signal foci in the bilateral basal ganglia, thalamus, and pons (Figure 2).
+
+PHENOTYPES (HPO)
+------------------------------------------------------------
+- headaches (HP:0002315)
+- occasional tingling (HP:0003401)
+- photophobia (HP:0000613)
+- phonophobia (HP:0002183)
+- nausea (HP:0002018)
+- altered consciousness (HP:0004372)
+- dizziness (HP:0002321)
+- hypertension (HP:0000822)
+- migraines (HP:0002076)
+- sinusitis (HP:0000246)
+- encephalopathy (HP:0001298)
+- foci in the bilateral basal ganglia (HP:0007146)
+
+LOCUS EVIDENCE (OVERVIEW)
+------------------------------------------------------------
+Locus boost summary: syndromes_used=neurocutaneous syndrome | ot_genes_found=400 | injected_count=1 | llm_used=True model=gpt-5-mini | top_disease=neurocutaneous syndrome (MONDO_0042983) query=neurocutaneous syndrome
+- [Full locus payload attached as FHIR DocumentReference JSON]
+
+BIOCHEMICAL FINDINGS
+------------------------------------------------------------
+[none extracted]
+
+Negatives / explicitly denied:
+- no prodromal or accompanying symptoms of aura
+- no photophobia
+- no phonophobia
+- no nausea
+- no change in level of consciousness
+- no dizziness
+- no other neurological symptoms
+- no history of hypertension
+- no history of migraines
+- no history of sinusitis
+- no use of drugs that could cause headaches
+- autoimmune encephalopathy antibodies negative
+
+TOP 20 CANDIDATE GENES (WITH SCORES)
+------------------------------------------------------------
+01. NF1	final_score=0.7787356596240047
+02. VHL	final_score=0.6896312163794821
+03. SMARCB1	final_score=0.6813071421302401
+04. NF2	final_score=0.7354687733833811
+05. SUFU	final_score=0.6397622791122757
+06. TSC2	final_score=0.5715347303738207
+07. TSC1	final_score=0.5567040524556525
+08. LZTR1	final_score=0.5273460437108105
+09. CCND1	final_score=0.4855901079562614
+10. GNAQ	final_score=0.5329249094794617
+11. NRAS	final_score=0.5069434124823579
+12. TP53	final_score=0.41284276612965537
+13. POLG	final_score=0.3989540015517131
+14. SCN1A	final_score=0.38860457346634825
+15. CACNA1A	final_score=0.3904298733779516
+16. IL10	final_score=0.38263938739039904
+17. C4A	final_score=0.38263918939039904
+18. ATP1A2	final_score=0.40188750825765174
+19. PTPN22	final_score=0.3785179035848454
+20. HLA-B	final_score=0.424342687557736
+
+PER-GENE EVIDENCE (TOP CANDIDATES)
+------------------------------------------------------------
+Gene 01: NF1	final_score=0.7787356596240047
+Why this gene was prioritized
+NF1 is the most commonly implicated gene in neurocutaneous syndromes and is strongly associated with the symptoms observed in the patient.
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+• locus score: 0.482692
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(NF1 AND (headache OR "headaches" OR "neurofibromatosis type 1" OR "NF1 syndrome" OR "café-au-lait spots" OR "skin manifestations")) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Revised diagnostic criteria for neurofibromatosis type 1 and Legius syndrome: an international consensus recommendation.
+  PMID: 34012067 | DOI: 10.1038/s41436-021-01170-5
+
+• NF1 molecular characterization and neurofibromatosis type I genotype-phenotype correlation: the French experience.
+  PMID: 23913538 | DOI: 10.1002/humu.22392
+
+• Clinical and Genetic Findings in Children with Neurofibromatosis Type 1, Legius Syndrome, and Other Related Neurocutaneous Disorders.
+  PMID: 31370276 | DOI: 10.3390/genes10080580
+
+Gene 02: VHL	final_score=0.6896312163794821
+Why this gene was prioritized
+VHL may contribute to CNS tumors, but the phenotypic fit is less comprehensive compared to NF1.
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+• locus score: 0.001891
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(VHL AND (phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• von Hippel-Lindau disease: Updated guideline for diagnosis and surveillance.
+  PMID: 35709961 | DOI: 10.1016/j.ejmg.2022.104538
+
+• Genetic testing and surveillance guidelines in hereditary pheochromocytoma and paraganglioma.
+  PMID: 30536464 | DOI: 10.1111/joim.12869
+
+• Von Hippel-Lindau syndrome: clinical features, genetic foundations, and management strategies.
+  PMID: 40042715 | DOI: 10.1007/s11033-025-10403-8
+
+Gene 03: SMARCB1	final_score=0.6813071421302401
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+• locus score: 0.001756
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(SMARCB1 AND (phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Updated diagnostic criteria and nomenclature for neurofibromatosis type 2 and schwannomatosis: An international consensus recommendation.
+  PMID: 35674741 | DOI: 10.1016/j.gim.2022.05.007
+
+• Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas.
+  PMID: 24362817 | DOI: 10.1038/ng.2855
+
+• Mutations in LZTR1 add to the complex heterogeneity of schwannomatosis.
+  PMID: 25480913 | DOI: 10.1212/WNL.0000000000001129
+
+Gene 04: NF2	final_score=0.7354687733833811
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+• locus score: 0.001877
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(NF2 AND (headache OR "headaches" OR "headache disorders" OR "migraine" OR "migraine disorders" OR "skin manifestations" OR "cutaneous manifestations" OR "neurocutaneous syndromes")) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• [Neurofibromatosis].
+  PMID: 9864698
+
+• Diagnostic and Prognostic Relevance of the Cutaneous Manifestations of Neurofibromatosis Type 2.
+  PMID: 28237041 | DOI: 10.1016/j.ad.2016.12.007
+
+• Neurofibromatosis 1 and neurofibromatosis 2: a twenty first century perspective.
+  PMID: 17362838 | DOI: 10.1016/S1474-4422(07)70075-3
+
+Gene 05: SUFU	final_score=0.6397622791122757
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+• locus score: 0.00178
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(SUFU AND (headache OR "headaches" OR phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Medulloblastoma in the age of molecular subgroups: a review.
+  PMID: 31574483 | DOI: 10.3171/2019.5.PEDS18381
+
+• Frequency of Pathogenic Germline Variants in Cancer-Susceptibility Genes in the Childhood Cancer Survivor Study.
+  PMID: 34308104 | DOI: 10.1093/jncics/pkab007
+
+• Novel molecular subgroups for clinical classification and outcome prediction in childhood medulloblastoma: a cohort study.
+  PMID: 28545823 | DOI: 10.1016/S1470-2045(17)30243-7
+
+Gene 06: TSC2	final_score=0.5715347303738207
+Why this gene was prioritized
+TSC2 is associated with Tuberous Sclerosis, but the specific symptoms observed in this patient do not support its primary role.
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+• locus score: 0.00189
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(TSC2 AND (phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Unexpected cancer-predisposition gene variants in Cowden syndrome and Bannayan-Riley-Ruvalcaba syndrome patients without underlying germline PTEN mutations.
+  PMID: 29684080 | DOI: 10.1371/journal.pgen.1007352
+
+• Tuberous Sclerosis Complex: A Review.
+  PMID: 28414398 | DOI: 10.3928/19382359-20170320-01
+
+• TSC2 is phosphorylated and inhibited by Akt and suppresses mTOR signalling.
+  PMID: 12172553 | DOI: 10.1038/ncb839
+
+Gene 07: TSC1	final_score=0.5567040524556525
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+• locus score: 0.001881
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(TSC1 AND (phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Tuberous sclerosis complex.
+  PMID: 27226234 | DOI: 10.1038/nrdp.2016.35
+
+• Tuberous Sclerosis Complex: A Review.
+  PMID: 28414398 | DOI: 10.3928/19382359-20170320-01
+
+• Frequency of Pathogenic Germline Variants in Cancer-Susceptibility Genes in the Childhood Cancer Survivor Study.
+  PMID: 34308104 | DOI: 10.1093/jncics/pkab007
+
+Gene 08: LZTR1	final_score=0.5273460437108105
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+• locus score: 0.00184
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(LZTR1 AND (headache OR phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Mutations in LZTR1 drive human disease by dysregulating RAS ubiquitination.
+  PMID: 30442762 | DOI: 10.1126/science.aap7607
+
+• Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas.
+  PMID: 24362817 | DOI: 10.1038/ng.2855
+
+• LZTR1 is a regulator of RAS ubiquitination and signaling.
+  PMID: 30442766 | DOI: 10.1126/science.aap8210
+
+Gene 09: CCND1	final_score=0.4855901079562614
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+• locus score: 0.001425
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(CCND1 AND (headache OR "headaches" OR phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Molecular Pathogenesis of Mantle Cell Lymphoma.
+  PMID: 32861278 | DOI: 10.1016/j.hoc.2020.05.002
+
+• Aberrant single-cell phenotype and clinical implications of genotypically defined polyclonal plasma cells in myeloma.
+  PMID: 40009503 | DOI: 10.1182/blood.2024025643
+
+• Plasma cell myeloma.
+  PMID: 19577166 | DOI: 10.1016/j.hoc.2009.04.012
+
+Gene 10: GNAQ	final_score=0.5329249094794617
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+• locus score: 0.001711
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(GNAQ AND (headache OR "headaches" OR "migraine" OR "migraine disorders" OR "photophobia" OR "phonophobia" OR "nausea" OR "dizziness" OR "hypertension" OR "sinusitis")) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Sturge-Weber syndrome: an overview of history, genetics, clinical manifestations, and management.
+  PMID: 39389653 | DOI: 10.1016/j.spen.2024.101151
+
+• Genetics of Primary Aldosteronism.
+  PMID: 35139664 | DOI: 10.1161/HYPERTENSIONAHA.121.16498
+
+• Biomarker development in Sturge-Weber syndrome.
+  PMID: 40851064 | DOI: 10.1186/s11689-025-09640-6
+
+Gene 11: NRAS	final_score=0.5069434124823579
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+• locus score: 0.001635
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(NRAS AND (headache OR "headaches" OR "headache disorders" OR "migraine" OR "migraine disorders" OR "skin manifestations" OR "cutaneous manifestations" OR "neurocutaneous syndromes")) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Neurocutaneous Melanocytosis and Leptomeningeal Melanoma.
+  PMID: 31764519 | DOI: 10.1097/MPH.0000000000001680
+
+• Schimmelpenning-Feuerstein-Mims syndrome with orbital choristoma and KRAS mutation: a current review and novel case report.
+  PMID: 38097938 | DOI: 10.1080/13816810.2023.2291664
+
+• Expansion of the complex genotypic and phenotypic spectrum of FGFR2-associated neurocutaneous syndromes.
+  PMID: 38265560 | DOI: 10.1007/s00439-023-02634-1
+
+Gene 12: TP53	final_score=0.41284276612965537
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+[no locus per-gene support found]
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(TP53 AND (headache OR phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Implications of TP53 allelic state for genome stability, clinical presentation and outcomes in myelodysplastic syndromes.
+  PMID: 32747829 | DOI: 10.1038/s41591-020-1008-z
+
+• Co-occurring genomic alterations in non-small-cell lung cancer biology and therapy.
+  PMID: 31406302 | DOI: 10.1038/s41568-019-0179-8
+
+• TP53 Variations in Human Cancers: New Lessons from the IARC TP53 Database and Genomics Data.
+  PMID: 27328919 | DOI: 10.1002/humu.23035
+
+Gene 13: POLG	final_score=0.3989540015517131
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+[no locus per-gene support found]
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(POLG AND (headache OR phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• POLG-related disorders and their neurological manifestations.
+  PMID: 30451971 | DOI: 10.1038/s41582-018-0101-0
+
+• Mitochondrial Epilepsy, a Challenge for Neurologists.
+  PMID: 36362003 | DOI: 10.3390/ijms232113216
+
+• Mitochondrial DNA maintenance defects.
+  PMID: 28215579 | DOI: 10.1016/j.bbadis.2017.02.017
+
+Gene 14: SCN1A	final_score=0.38860457346634825
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+[no locus per-gene support found]
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(SCN1A AND (headache OR "headaches" OR phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Hemiplegic migraine.
+  PMID: 38307656 | DOI: 10.1016/B978-0-12-823357-3.00015-X
+
+• Phenotypic spectrum and genomics of undiagnosed arthrogryposis multiplex congenita.
+  PMID: 33820833 | DOI: 10.1136/jmedgenet-2020-107595
+
+• The gain of function SCN1A disorder spectrum: novel epilepsy phenotypes and therapeutic implications.
+  PMID: 35696452 | DOI: 10.1093/brain/awac210
+
+Gene 15: CACNA1A	final_score=0.3904298733779516
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+[no locus per-gene support found]
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(CACNA1A AND (headache OR migraine OR "CNS demyelination" OR "basal ganglia" OR "thalamus" OR "pons")) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Hemiplegic migraine.
+  PMID: 38307656 | DOI: 10.1016/B978-0-12-823357-3.00015-X
+
+• Clinical and genetic characterization of CACNA1A-related disease.
+  PMID: 35722745 | DOI: 10.1111/cge.14180
+
+• CACNA1A-Related Channelopathies: Clinical Manifestations and Treatment Options.
+  PMID: 36592223 | DOI: 10.1007/164_2022_625
+
+Gene 16: IL10	final_score=0.38263938739039904
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+[no locus per-gene support found]
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(IL10 AND (headache OR phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• IL-10 Family Cytokines IL-10 and IL-22: from Basic Science to Clinical Translation.
+  PMID: 30995504 | DOI: 10.1016/j.immuni.2019.03.020
+
+• Molecular diagnosis of primary CNS lymphoma in 2024 using MYD88(Leu265Pro) and IL-10.
+  PMID: 38937027 | DOI: 10.1016/S2352-3026(24)00104-2
+
+• Epigenetic Changes Associated With Interleukin-10.
+  PMID: 32582189 | DOI: 10.3389/fimmu.2020.01105
+
+Gene 17: C4A	final_score=0.38263918939039904
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+[no locus per-gene support found]
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(C4A AND (phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• The complement system and human autoimmune diseases.
+  PMID: 36535812 | DOI: 10.1016/j.jaut.2022.102979
+
+• Identification of novel therapeutic targets for chronic kidney disease and kidney function by integrating multi-omics proteome with transcriptome.
+  PMID: 38898508 | DOI: 10.1186/s13073-024-01356-x
+
+• Functional regulatory variants implicate distinct transcriptional networks in dementia.
+  PMID: 35981026 | DOI: 10.1126/science.abi8654
+
+Gene 18: ATP1A2	final_score=0.40188750825765174
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+[no locus per-gene support found]
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(ATP1A2 AND (headache OR migraine OR "headache syndromes" OR "familial hemiplegic migraine" OR "cerebral symptoms" OR "neurological manifestations")) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Hemiplegic migraine.
+  PMID: 38307656 | DOI: 10.1016/B978-0-12-823357-3.00015-X
+
+• ATP1A2- and ATP1A3-associated early profound epileptic encephalopathy and polymicrogyria.
+  PMID: 33880529 | DOI: 10.1093/brain/awab052
+
+• Diagnostic and therapeutic aspects of hemiplegic migraine.
+  PMID: 32430436 | DOI: 10.1136/jnnp-2020-322850
+
+Gene 19: PTPN22	final_score=0.3785179035848454
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+[no locus per-gene support found]
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(PTPN22 AND (phenotype OR disease OR manifestation)) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• The genetics of Graves' disease.
+  PMID: 38108994 | DOI: 10.1007/s11154-023-09848-8
+
+• Protein tyrosine phosphatase PTPN22 negatively modulates platelet function and thrombus formation.
+  PMID: 35767715 | DOI: 10.1182/blood.2022015554
+
+• Screening COPD-Related Biomarkers and Traditional Chinese Medicine Prediction Based on Bioinformatics and Machine Learning.
+  PMID: 39346628 | DOI: 10.2147/COPD.S476808
+
+Gene 20: HLA-B	final_score=0.424342687557736
+Why this gene was prioritized
+[no LLM rationale available]
+
+Phenotype match
+Matched patient phenotypes:
+• headaches (HP:0002315)
+• occasional tingling (HP:0003401)
+• photophobia (HP:0000613)
+• phonophobia (HP:0002183)
+• nausea (HP:0002018)
+• altered consciousness (HP:0004372)
+• dizziness (HP:0002321)
+• hypertension (HP:0000822)
+
+Locus support
+[no locus per-gene support found]
+
+Biochemical support
+[no biochemical per-gene support found]
+
+Literature confirmation
+PubMed query:
+(HLA-B AND (headache OR "headaches" OR "headache disorders" OR "migraine" OR "migraine disorders" OR "photophobia" OR "phonophobia" OR "nausea" OR "dizziness" OR "hypertension" OR "sinusitis")) AND (genetics[sh] OR variant[tiab] OR mutation[tiab]) AND humans[mh]
+
+• Cardiovascular comorbidities in spondyloarthritis.
+  PMID: 36512164 | DOI: 10.1007/s10067-022-06473-9
+
+• HLA-Bw54 and glaucomatocyclitic crisis.
+  PMID: 4074175 | DOI: 10.1001/archopht.1985.01050120071023
+
+• HLA-B and TIMP1 as hub genes of the ventricular remodeling caused by hypertension.
+  PMID: 38728374 | DOI: 10.18632/aging.205816
+
+FINAL INTERPRETATION
+------------------------------------------------------------
+The patient's clinical presentation, including recurrent headaches and café-au-lait spots, aligns with Neurofibromatosis type 1 (NF1). The prioritization workflow highlights NF1 as the leading candidate among genes associated with neurocutaneous syndromes. Further genetic testing for NF1 mutations is warranted to confirm the diagnosis, especially considering the familial occurrence of similar skin manifestations.
+
+RECOMMENDED FOLLOW-UP
+------------------------------------------------------------
+• Perform genetic testing for mutations in the NF1 gene.
+• Evaluate for other neurofibromatosis-related complications through clinical imaging.
+• Consider referral for genetic counseling for the family.
+• Monitor the patient's headache pattern and neurological status for potential changes.
+• Educate the family on the nature of neurofibromatosis and associated risks.

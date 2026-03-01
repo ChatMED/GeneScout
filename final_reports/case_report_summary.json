@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-02-28T22:23:43Z",
+  "suspected_condition_text": "Neurocutaneous syndrome (NF1 most likely)",
+  "top_n": 20,
+  "llm_output": {
+    "conclusion": "The patient's clinical presentation, including recurrent headaches and café-au-lait spots, aligns with Neurofibromatosis type 1 (NF1). The prioritization workflow highlights NF1 as the leading candidate among genes associated with neurocutaneous syndromes. Further genetic testing for NF1 mutations is warranted to confirm the diagnosis, especially considering the familial occurrence of similar skin manifestations.",
+    "reasoning_summary": "The patient's symptoms and family history strongly suggest NF1, corroborated by the gene prioritization analysis that identified NF1 as the top gene. Other candidates, while presenting similar phenotypes, did not match the case as thoroughly.",
+    "top20_gene_rationale": [
+      {
+        "symbol": "NF1",
+        "rationale": "NF1 is the most commonly implicated gene in neurocutaneous syndromes and is strongly associated with the symptoms observed in the patient.",
+        "mechanism": "The NF1 gene encodes neurofibromin, a tumor suppressor protein that plays a critical role in regulating cell growth and differentiation. Mutations lead to neurofibromatosis type 1, manifesting as café-au-lait spots and headaches.",
+        "contribution": {
+          "phenotype_similarity": 0.9287,
+          "biochemical_support": {},
+          "literature_support": {
+            "hits": 1886,
+            "retrieved": 10
+          },
+          "literature_delta": 0.15
+        }
+      },
+      {
+        "symbol": "VHL",
+        "rationale": "VHL may contribute to CNS tumors, but the phenotypic fit is less comprehensive compared to NF1.",
+        "mechanism": "VHL protein regulates cell growth and angiogenesis; mutations can lead to tumors in the nervous system. However, its connection to the patient's symptoms is indirect.",
+        "contribution": {
+          "phenotype_similarity": 0.8396,
+          "biochemical_support": {},
+          "literature_support": {
+            "hits": 2326,
+            "retrieved": 10
+          },
+          "literature_delta": 0.15
+        }
+      },
+      {
+        "symbol": "TSC2",
+        "rationale": "TSC2 is associated with Tuberous Sclerosis, but the specific symptoms observed in this patient do not support its primary role.",
+        "mechanism": "TSC2 encodes a protein involved in mTOR signaling, crucial for cell growth regulation. The absence of tuberous sclerosis symptoms diminishes its relevance.",
+        "contribution": {
+          "phenotype_similarity": 0.7215,
+          "biochemical_support": {},
+          "literature_support": {
+            "hits": 1246,
+            "retrieved": 10
+          },
+          "literature_delta": 0.15
+        }
+      }
+    ],
+    "agent_summaries": {
+      "geneticist": "The geneticist's evaluation supports NF1 as the primary candidate for genetic testing based on the patient's clinical presentation of neurocutaneous features.",
+      "biochemist": "The biochemist sees minimal biochemical markers relevant to the case, focusing instead on genetic mechanisms for interpretation.",
+      "validator": "The validator confirms the workflow outcomes, emphasizing the importance of NF1 mutation analysis for clinical diagnosis."
+    },
+    "recommended_followup": [
+      "Perform genetic testing for mutations in the NF1 gene.",
+      "Evaluate for other neurofibromatosis-related complications through clinical imaging.",
+      "Consider referral for genetic counseling for the family.",
+      "Monitor the patient's headache pattern and neurological status for potential changes.",
+      "Educate the family on the nature of neurofibromatosis and associated risks."
+    ]
+  },
+  "notes": {
+    "subject_as_array_resource_types": null
+  }
+}
